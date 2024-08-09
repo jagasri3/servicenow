@@ -1,0 +1,51 @@
+/* src/AdminComp/StatsCard.css */
+.stats-cards-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .stats-card {
+    width: 200px;
+    height: 100px;
+    color: rgb(11, 11, 11);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stats-card h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .stats-card p {
+    margin: 5px 0;
+  }
+  
+  .stats-card .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .stats-card .social {
+    margin-top: 10px;
+  }
+  
+  .stats-card.blue {
+    background-color: #4B0082;
+  }
+  
+  .stats-card.red {
+    background-color: #0000FF;
+  }
+  
+  .stats-card.green {
+    background-color: #00FF00;
+  }
+  
+  .stats-card.black {
+    background-color: #FF7F00;
+  }
+  

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+.login-body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Jost', sans-serif;
+  background: linear-gradient(#5da2f0, #d5c9ea, #f8f8f8, #264991);
+}
+
+.main-login {
+  width: 400px; /* Increase the width of the container */
+  height: 450px; /* Maintain a consistent height */
+  background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/cover;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Jost', sans-serif;
+  padding-top: 20px; /* Add padding to the top to move content upwards */
+}
+
+.form-label {
+  color: #050404;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 10px; /* Reduce the margin-bottom to move it upwards */
+  font-weight: bold;
+}
+
+.input-container {
+  position: relative;
+  width: 106%;
+  margin: 10px auto;
+}
+
+.input-container input {
+  width: 100%; /* Full width for the input */
+  height: 40px; /* Increase the height */
+  background: #e0dede;
+  padding: 8px 8px 8px 40px; /* Add more padding for the icon */
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+.button-login {
+  width: 80%; /* Increase the width of the buttons */
+  height: 40px;
+  margin: 10px auto;
+  display: block;
+  color: #fff;
+  background: #264991;
+  font-size: 1em;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+.button-toggle {
+  width: 80%; /* Increase the width of the buttons */
+  height: 40px;
+  margin: 10px auto;
+  display: block;
+  color: blue;
+  font-size: 1em;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+
+.button-toggle .hover-register:hover {
+  color: red; /* Change this to the desired hover color */
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}

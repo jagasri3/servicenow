@@ -1,0 +1,112 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #180d65;
+  color: white;
+  height: 80px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 45px;
+  margin-left: 15px;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.5);
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.navbar-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 200px;
+  padding-left: 1px;}
+
+.navbar-search input {
+  padding: 5px 30px 5px 10px;
+  border: none;
+  border-radius: 4px;
+  width: 150%;
+  margin-right: 20px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 25px;
+  font-size: 25px;
+  color: #180d65;
+}
+
+.profile-icon {
+  color: white;
+  font-size: 25px;
+  margin-right: 20px;}
+
+/* Dropdown Styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #180d65;
+  color: white !important;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .navbar-button {
+  color: rgb(7, 7, 7);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: #180d65;
+}

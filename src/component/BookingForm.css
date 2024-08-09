@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&family=Montserrat:wght@100;200;300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    background-color: #f0f0f7;
+}
+
+.container {
+    background: #282865;
+    width: 500px;
+    padding: 25px;
+    margin: 25px auto 0;
+    box-shadow: 7px 7px 18px #141415,
+        -7px -7px 10px #252526;
+}
+
+.container h2 {
+    box-shadow: 5px 5px 10px #141415,
+        -5px -5px 10px #252526;
+    color: #edecf2;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #0a0a0a;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h4 {
+    padding-bottom: 5px;
+    color: #edecf2;
+}
+
+.input {
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+}
+
+.input-box {
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+}
+
+.input-box input {
+    background: #e4e4e8;
+    box-shadow: 7px 7px 18px #141415,
+        -7px -7px 10px #252526;
+}
+
+.input-box:last-child {
+    margin-right: 0;
+}
+
+.input-box .icon {
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+.name {
+    padding: 14px 10px 14px 50px;
+    width: 100%;
+    background-color: #fcfcfc;
+    border: 2px solid #0a0a0a;
+    outline: none;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    color: #180d65;
+}
+
+.dob {
+    outline: none;
+    border: 2px solid #010101;
+    padding: 15px;
+    border-radius: 5px;
+    color: #777;
+    width: 80%;
+}
+
+.input-box {
+    margin-right: 5px;
+    display: inline-block;
+    color: #fff;
+}
+
+.input-box label {
+    color: #fff;
+    font-weight: 400;
+}
+
+.input-box select {
+    display: inline-block;
+    width: 40%;
+    padding: 12px;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    border: 2px solid #060606;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e8e8f1;
+    color: #777;
+}
+
+.button-form {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    background-color: #524a84;
+    padding: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    transition: .5s;
+    box-shadow: 7px 7px 18px #141415,
+        -7px -7px 10px #252526;
+}
+
+.button-form:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #180d65;
+    border: 1px solid green;
+    box-shadow: 7px 7px 18px #141415,
+        -7px -7px 10px #252526;
+}

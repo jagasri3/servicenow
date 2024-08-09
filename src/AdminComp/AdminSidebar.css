@@ -1,0 +1,86 @@
+/* Sidebar styles */
+.admin-sidebar {
+  height: 100%;
+  width: 0; /* Initially closed */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.admin-sidebar-open {
+  width: 15%; /* Width when open */
+}
+
+.admin-sidebar-closebtn {
+  position: absolute;
+  top: 20px; /* Move button up */
+  left: 0;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 7px 15px;
+}
+
+.admin-sidebar-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  transition: 0.3s;
+}
+
+.admin-sidebar-link:hover {
+  
+  background-color: #575757;
+  color: #ffffff;
+}
+
+/* Main content styles */
+.admin-main-content {
+  transition: margin-left 0.5s;
+}
+
+.admin-main-content-shifted {
+  margin-left: 15%; /* Shift content when sidebar is open */
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+  background-color: #180d65;
+  padding: 16px;
+  color: #fff;
+}
+
+.admin-openbtn {
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.admin-logo {
+  height: 75px;
+  margin-left: 5px; /* Space between the hamburger icon and the logo */
+  transition: margin-left 0.5s; /* Smooth transition for logo movement */
+}
+
+.admin-logo-shifted {
+  margin-left: 1060px; /* Space to move the logo to the right when sidebar is open */
+}
+
+.admin-car-image {
+  width: 100%;
+  display: block;
+  margin-top: 16px;
+}
+
+.admin-main-info {
+  padding: 16px;
+}

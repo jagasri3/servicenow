@@ -1,0 +1,51 @@
+.mechanics-management {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .mechanics-management h1 {
+    text-align: center;
+  }
+  
+  .mechanics-management h2 {
+    margin-top: 20px;
+  }
+  
+  .mechanic-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mechanic-card p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .mechanic-card p b {
+    margin-left: 5px;
+  }
+  
+  .unassign-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #180d65;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .unassign-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .fa-icon {
+    margin-right: 10px;
+  }
+  
